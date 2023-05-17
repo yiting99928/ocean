@@ -1,0 +1,72 @@
+*
+  // border: solid 1px
+  font-family: "微軟正黑體"
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+header.jumbotron
+  text-align: center
+  background-image: url(https://static.pexels.com/photos/8807/sopot.jpg)
+  background-position: center center
+  background-size: cover
+  padding: 170px
+  color: white
+section
+  text-align: center
+  padding: 80px 0px 
+  .section-header
+    font-size: 36px
+    margin: 0
+  .section-subHeader
+    font-size: 16px
+  .col-sea
+    padding: 90px
+  img
+    width: 100%
+    border-radius: 50%
+    
+section.story
+  background-color: #eee
+  .col-md-6
+    padding: 20px
+  .icon-sea
+    width: 80px
+    margin-bottom: 20px
+section.pictures
+  color: white
+  padding: 0px
+  .col-md-6
+    padding: 150px
+    cursor: pointer
+    &:hover
+      p
+        opacity: 0.7
+      &:before
+        filter: brightness(0.5)
+        background-size: 140% auto
+    &:before
+      content: ""
+      display: block
+      width: 100%
+      height: 100%
+      position: absolute
+      left: 0
+      top: 0
+      z-index: -1
+      transition-duration: 0.5s
+      background-position: center center
+  p
+    opacity: 0.3
+    transition-duration: 0.5s
+  .pic1:before
+    background-image: url(https://thekidshouldseethis.com/wp-content/uploads/2015/05/rov-footage-of-deep-sea-creature.jpg)
+    background-size: 130% auto
+  .pic2:before
+    background-image: url(https://humansarevain.com/wp-content/uploads/2019/11/SEAQUAL_DeepOceanBag.jpg)
+    background-size: 130% auto
+// section, header
+//   display: none
+// section.pictures
+//   display: block
+section.ask
+  background-color: #01233C
+  color: white
